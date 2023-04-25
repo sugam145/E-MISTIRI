@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:width="428dp"
+    android:height="926dp"
+    android:viewportWidth="428"
+    android:viewportHeight="926">
+
+
+
+    
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/welcome_bac"
+        android:layout_width="388dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="177dp"
+        android:text="Welcome Back"
+        android:gravity="center_horizontal|top"
+        android:textSize="26sp"
+
+
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/there_are_m"
+        android:layout_width="388dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="216dp"
+        android:text="There are many variations of passages "
+        android:lineSpacingExtra="1sp"
+        android:translationY="-0.38sp"
+        android:gravity="center_horizontal|top"
+        android:textColor="#8F93AF"
+        />
+    <TextView
+        android:id="@+id/forgot_pass"
+        android:layout_width="388dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="446dp"
+        android:text="Forgot password?"
+        android:lineSpacingExtra="1sp"
+        android:translationY="-0.38sp"
+        android:gravity="center_horizontal|top"
+        android:textSize="18sp"
+        android:textColor="#212E7E"
+        android:letterSpacing="-0.01"
+        />
+
+
+
+</RelativeLayout>
